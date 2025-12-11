@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    //variables
     public Camera camera;
     public GameObject player;
     public GameObject disc;
