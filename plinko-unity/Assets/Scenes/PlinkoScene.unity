@@ -490,6 +490,7 @@ GameObject:
   - component: {fileID: 25493338}
   - component: {fileID: 25493341}
   - component: {fileID: 25493340}
+  - component: {fileID: 25493342}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -684,6 +685,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &25493342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25493336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &34423756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1792,7 @@ GameObject:
   - component: {fileID: 120115044}
   - component: {fileID: 120115047}
   - component: {fileID: 120115046}
+  - component: {fileID: 120115048}
   m_Layer: 0
   m_Name: Triangle (2)
   m_TagString: Untagged
@@ -1973,6 +1987,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &120115048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120115042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &121607469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2549,7 @@ GameObject:
   - component: {fileID: 160020248}
   - component: {fileID: 160020251}
   - component: {fileID: 160020250}
+  - component: {fileID: 160020252}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -2717,6 +2744,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &160020252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160020246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &193663367
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,7 +3322,7 @@ Transform:
   m_GameObject: {fileID: 219451373}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.8, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: 35.45, y: 0.8200002, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4720,6 +4759,7 @@ GameObject:
   - component: {fileID: 291805414}
   - component: {fileID: 291805417}
   - component: {fileID: 291805416}
+  - component: {fileID: 291805418}
   m_Layer: 0
   m_Name: Triangle (1)
   m_TagString: Untagged
@@ -4914,6 +4954,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &291805418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291805412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &332528242
 GameObject:
   m_ObjectHideFlags: 0
@@ -5643,6 +5695,7 @@ GameObject:
   - component: {fileID: 368444245}
   - component: {fileID: 368444248}
   - component: {fileID: 368444247}
+  - component: {fileID: 368444249}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -5837,6 +5890,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &368444249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368444243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &371601232
 GameObject:
   m_ObjectHideFlags: 0
@@ -6029,6 +6094,7 @@ GameObject:
   - component: {fileID: 379797474}
   - component: {fileID: 379797477}
   - component: {fileID: 379797476}
+  - component: {fileID: 379797478}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -6223,6 +6289,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &379797478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379797472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &383744124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6773,6 +6851,7 @@ GameObject:
   - component: {fileID: 397539480}
   - component: {fileID: 397539483}
   - component: {fileID: 397539482}
+  - component: {fileID: 397539484}
   m_Layer: 0
   m_Name: Triangle (4)
   m_TagString: Untagged
@@ -6967,6 +7046,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &397539484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397539478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &417899448
 GameObject:
   m_ObjectHideFlags: 0
@@ -11355,6 +11446,7 @@ GameObject:
   - component: {fileID: 616312997}
   - component: {fileID: 616313000}
   - component: {fileID: 616312999}
+  - component: {fileID: 616313001}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -11549,6 +11641,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &616313001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616312995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &617265283
 GameObject:
   m_ObjectHideFlags: 0
@@ -11562,6 +11666,7 @@ GameObject:
   - component: {fileID: 617265285}
   - component: {fileID: 617265288}
   - component: {fileID: 617265287}
+  - component: {fileID: 617265289}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -11756,6 +11861,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &617265289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617265283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -14070,7 +14187,7 @@ Transform:
   m_GameObject: {fileID: 778018294}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.2, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: -15.71, y: 0.8200002, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -17745,6 +17862,7 @@ RectTransform:
   m_Children:
   - {fileID: 2040053452}
   - {fileID: 732671564}
+  - {fileID: 1663292144}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -17781,7 +17899,7 @@ Transform:
   m_GameObject: {fileID: 989219806}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.2, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: -15.52, y: 0.8200002, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -19684,6 +19802,7 @@ GameObject:
   - component: {fileID: 1130230042}
   - component: {fileID: 1130230045}
   - component: {fileID: 1130230044}
+  - component: {fileID: 1130230046}
   m_Layer: 0
   m_Name: Triangle (3)
   m_TagString: Untagged
@@ -19878,6 +19997,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1130230046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130230040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1130604807
 GameObject:
   m_ObjectHideFlags: 0
@@ -22735,7 +22866,7 @@ Transform:
   m_GameObject: {fileID: 1267488281}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.2, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: -15.61, y: 0.8200002, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -24010,6 +24141,7 @@ GameObject:
   - component: {fileID: 1396117498}
   - component: {fileID: 1396117501}
   - component: {fileID: 1396117500}
+  - component: {fileID: 1396117502}
   m_Layer: 0
   m_Name: Triangle (2)
   m_TagString: Untagged
@@ -24204,6 +24336,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1396117502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396117496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1408897302
 GameObject:
   m_ObjectHideFlags: 0
@@ -26269,6 +26413,7 @@ GameObject:
   - component: {fileID: 1503559498}
   - component: {fileID: 1503559501}
   - component: {fileID: 1503559500}
+  - component: {fileID: 1503559502}
   m_Layer: 0
   m_Name: Triangle (1)
   m_TagString: Untagged
@@ -26463,6 +26608,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1503559502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503559496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1522995863
 GameObject:
   m_ObjectHideFlags: 0
@@ -27487,6 +27644,7 @@ GameObject:
   - component: {fileID: 1571371925}
   - component: {fileID: 1571371928}
   - component: {fileID: 1571371927}
+  - component: {fileID: 1571371929}
   m_Layer: 0
   m_Name: Triangle (3)
   m_TagString: Untagged
@@ -27681,6 +27839,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1571371929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571371923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1572821543
 GameObject:
   m_ObjectHideFlags: 0
@@ -28052,6 +28222,7 @@ GameObject:
   - component: {fileID: 1587146303}
   - component: {fileID: 1587146306}
   - component: {fileID: 1587146305}
+  - component: {fileID: 1587146307}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -28246,6 +28417,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1587146307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587146301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1588682095
 GameObject:
   m_ObjectHideFlags: 0
@@ -28962,6 +29145,157 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1663292143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663292144}
+  - component: {fileID: 1663292147}
+  - component: {fileID: 1663292146}
+  - component: {fileID: 1663292145}
+  m_Layer: 5
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1663292144
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663292143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 985542393}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 468, y: 163}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1663292145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663292143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dcd5ae7b75a2c41a3d0395b8bfdbb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timer
+  timerText: {fileID: 1663292146}
+  remainingTime: 90
+--- !u!114 &1663292146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663292143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 00:00
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: c4b604778e30cf34487a863ae2d7bae2, type: 2}
+  m_sharedMaterial: {fileID: 6635835590431371158, guid: c4b604778e30cf34487a863ae2d7bae2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1663292147
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663292143}
+  m_CullTransparentMesh: 1
 --- !u!1 &1669192400
 GameObject:
   m_ObjectHideFlags: 0
@@ -32486,7 +32820,7 @@ Transform:
   m_GameObject: {fileID: 1859024024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.8, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: 35.38, y: 0.78, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -33186,6 +33520,7 @@ GameObject:
   - component: {fileID: 1893209964}
   - component: {fileID: 1893209967}
   - component: {fileID: 1893209966}
+  - component: {fileID: 1893209968}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -33380,6 +33715,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1893209968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893209962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1907538769
 GameObject:
   m_ObjectHideFlags: 0
@@ -34292,7 +34639,7 @@ Transform:
   m_GameObject: {fileID: 1951446257}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.8, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: 35.46, y: 0.78, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -34813,6 +35160,7 @@ GameObject:
   - component: {fileID: 1984689295}
   - component: {fileID: 1984689298}
   - component: {fileID: 1984689297}
+  - component: {fileID: 1984689299}
   m_Layer: 0
   m_Name: Triangle (4)
   m_TagString: Untagged
@@ -35007,6 +35355,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1984689299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984689293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eeb8670e22124418f0a529a4846163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoubleScore
 --- !u!1 &1997814027
 GameObject:
   m_ObjectHideFlags: 0
@@ -36080,7 +36440,7 @@ Transform:
   m_GameObject: {fileID: 2057588296}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.2, y: 0.8200002, z: 0}
+  m_LocalPosition: {x: -15.88, y: 0.8200002, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
